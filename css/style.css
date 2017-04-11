@@ -1,8 +1,9 @@
 body {
     position: relative; 
 	background:url('../images/piano2.jpg') no-repeat;
-	background-size:cover;
+	background-size:100%;
 	background-color:#ddd1d1;
+	overflow-x: hidden;
 	color:#000;}	
 .navbar-inverse {
 	border-bottom:5px #fff;
@@ -727,8 +728,8 @@ margin-bottom:15px;
 	margin:5px 5px 10px 5px;
 }
 .container-fluid {
-    padding-right: 0px!important;
-    padding-left: 0px!important;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }

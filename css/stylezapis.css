@@ -1,0 +1,433 @@
+
+body{
+	font-family: 'Pontano Sans', sans-serif;
+	background:url('../images/headerbg3.png');
+	background-size:cover;
+}
+
+.header{
+	background-color:#ffffff;
+	color:#000000;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+	
+}
+.header h1{
+	text-transform:uppercase;
+	text-weight:700;
+	font-size:24px;
+	color:#000000;
+	font-family:'Sanchez', serif;
+}
+.header h2{
+	text-weight:400;
+	font-size:20px;
+	color:#000000;
+
+}
+
+.logo{
+	width:40px;
+	margin-right:10px;
+}
+
+.close{
+	width:12px;
+	height:12px;
+	color:#000000;
+}
+.mymenu{
+	text-align:center;
+	text-transform:uppercase;
+	float:right;
+	display:none;
+	padding:7px;
+}
+.mymenu li{
+	display:inline-block;
+	margin-left:70px;
+	list-style-type:none;
+}
+a{
+	color:#532F28;
+	padding:5px 5px 5px 5px;
+}
+a:hover{
+	
+	background-color:#000000;
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+.create{
+	margin-top:110px;
+	margin-bottom:90px;
+	margin-left:40px;
+	align:center;
+    width:70%;
+	background-size:cover;
+	
+}
+
+
+.scrollarea{
+    	text-align:center;
+		padding-bottom:10px;
+}
+.scroll{
+	width:20px;
+	margin-top:100px;
+}
+
+.hamburger{
+	width:30px;
+	float:right;
+	padding-top:7px;
+	
+}
+.arguments{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#000000;
+	font-family: 'Sanchez', serif;
+    
+}
+
+div.arguments{
+	background-color:#f1f1f1;
+
+}
+
+.arguments h1{
+	font-size:24px;
+	font-weight:400;
+	text-transform:uppercase;
+	margin-bottom:50px;	
+	
+}
+
+.arguments h2{
+	font-size:18px;	
+}
+
+.arguments h3{
+	font-size:15px;
+}
+.tlo2{
+	text-align:center;
+	
+}
+.row{
+	margin-left:-40px;
+	
+}
+
+
+.propos{
+	width:110%;
+}
+.jeden{
+	margin-left:-10px;
+	width:50%;	
+	transform:translateY(80%);
+}
+.hello{
+	width:100%;
+	text-align:center;
+	transform:translateY(-5%);
+}
+
+.hello h1{
+	text-transform:uppercase;
+	text-weight:700;
+	font-size:26px;
+	color:#000000;
+	font-family:'Sanchez', serif;
+	letter-spacing:2px;
+}
+.hello h2{
+	text-align:center;
+	line-height:30px;
+}
+
+.tlo3{
+	margin-top:30px;
+	background:url('../images/headerbg3.png');
+	background-size:cover;
+}
+
+.edu {
+	text-align:left;
+	margin-bottom:30px
+}
+
+.section3 h1{
+	font-size:34px;
+	font-weight:700;
+	text-transform:uppercase;
+	margin-bottom:50px;	
+}
+
+.dwa{
+	margin-left:15px;
+}
+.second h1{
+	text-transform:uppercase;
+	text-weight:700;
+	font-size:26px;
+	color:#000000;
+	font-family:'Sanchez', serif;
+	letter-spacing:2px;
+}
+
+.second h2 {
+	
+}
+
+.agh{
+	margin-left:10px;
+}
+.gartees{
+	margin-left:-5px;
+}
+
+.button1 button{
+	background-color:#ffffff;
+	border:solid 1px;
+	border-radius: 5px 5px 5px 5px;
+	padding:5px;
+	width:100%;
+	text-align:center;
+	color:#000000;
+	font-weight:400;
+	font-family:'Sanchez', serif;
+	text-transform:uppercase;
+	font-size:18px;
+	outline:none;
+}
+.button1 button:hover{
+	color:#ffffff;
+	background-color:#000000;
+}
+
+.projects{
+	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#f1f1f1;
+}
+.projects h1{
+	text-transform:uppercase;
+	text-weight:700;
+	font-size:24px;
+	color:#000000;
+	font-family:'Sanchez', serif;
+}
+
+.aboutprojects{
+	margin-top:20px;
+	margin-left:30px;
+	letter-spacing:2px;
+	
+	}
+	
+.aboutprojects h3{
+	text-weight:400;
+	font-size:19px;
+	color:#000000;
+	font-family:'Sanchez', serif;
+	text-align:center;
+	line-height:30px;
+}
+.pencils{
+	width:100%
+}
+.contact{
+	margin-top:50px;
+	padding-top:20px;
+	
+}
+.contact h1{
+	text-transform:uppercase;
+	text-weight:700;
+	font-size:24px;
+	color:#000000;
+	font-family:'Sanchez', serif;
+}
+.interested{
+	text-align:right;
+	padding-top:40px;
+	padding-bottom:40px;
+	
+}
+
+.interested h1{
+	text-weight:700;
+	font-size:24px;
+	color:#000000;
+}
+
+.interested h2{
+	text-weight:400;
+	font-size:26px;
+	color:#000000;
+}
+.interested h3{
+	text-weight:400;
+	font-size:26px;
+	color:#b5a1a1;
+}
+
+.interested h3,h2{
+	display:inline;
+}
+.data{
+	margin-top:50px;
+	background-color:#534741;
+	
+}
+.media{
+	text-align:left;
+	color:#000000;
+	margin-top:20px !important;
+	margin-bottom:10px;
+}
+
+
+.biglogo{
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.logo2{
+	weight:80%;
+}
+.personaldata{
+	text-align:right;
+	margin-top:40px;
+}
+
+.personaldata h2{
+	color:#000000;
+	font-size:16px;
+	font-family:'Sanchez', serif;
+}
+.personaldata h3{
+	color:#000000;
+	font-size:16px;
+}
+.footer{
+	background-color:#000000;
+	color:#3a3432;
+	font-size:12px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+hr{
+    
+    width: 50%;
+    height: 1px;
+    margin-top:5px;
+    border-top:1px solid #000000;
+}
+
+
+
+
+/*tu zaczyna się podstrona*/
+
+.describe{
+	font-family: 'Caveat', cursive;
+}
+.rog{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.apropo{
+	padding-left:80px;
+	margin-top:10px;
+	margin-bottom:20px;
+	
+}
+.aboutme{
+	font-family:'Sanchez', serif;
+	padding-left:160px;
+	text-align:left;
+	
+	color:#000000;font-weight:500;
+	line-height:25px;
+	text-weight:400;
+	font-size:14px;
+}
+.ja{
+	margin-left:70px;
+}
+
+
+
+
+.myname{
+	margin-top:20px;
+	width:40%;
+	size:cover;
+	transform:translateY(-5%);
+}
+
+.photo{
+	transform:translateY(30%);
+	padding-left:20px;
+}
+
+
+/*tutaj zaczyna się cv*/
+.tlocv{
+	background-color:#736357;
+	height:5px;
+}
+
+.obrazcv{
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:40px;
+	align:center;
+    width:70%;
+	background-size:cover;
+filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+}
+
+/*tu zaczyna się sekcja projects*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

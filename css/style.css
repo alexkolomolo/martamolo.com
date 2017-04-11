@@ -410,7 +410,7 @@ cite{
 audio, canvas, progress, video {
    background-color:#fff498;
    opacity:0.4;
-   width:30px;
+  
 } 
 
 
@@ -699,7 +699,8 @@ margin-bottom:15px;
 	font-size:18px;
 	line-height:35px;
 	margin-top:40px;
-	float:right;}
+	float:right;
+	margin-right:20px;}
 #section8 hr{
 	width:80%;
 	float:left;

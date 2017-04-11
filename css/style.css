@@ -1,7 +1,7 @@
 body {
     position: relative; 
 	background:url('../images/piano2.jpg') no-repeat;
-	background-size:100%;
+	background-size:cover;
 	background-color:#ddd1d1;
 	color:#000;}	
 .navbar-inverse {
@@ -22,10 +22,15 @@ body {
     color: #fff;
     background-color:transparent;	
 	border-bottom: thin solid #7a0740;}
-
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-right: auto;
+    margin-left: auto;
+}
 .navbar-inverse .navbar-nav > li > a {
 color: #fff;}
-  
+ 
 /*---------------------MAIN----------------*/
 .jumbotron{
 	background-color:transparent;
@@ -266,7 +271,6 @@ cite{
 #section3 h2{
 	
 	font-family: 'Playfair Display SC', sans-serif;
-	
      background-position: center center;
 	 background-repeat: no-repeat;
 	font-size:35px;
@@ -293,15 +297,15 @@ cite{
 .td{
 	text-align:right;
 	background-color:#fff;
-	margin-right:30px;
+	
 	margin-bottom:25px;}
 .justduet{
 	background-color:rgba(225,202,184,0.6);
 
 }
-	.lt{
+.lt{
 	text-align:left;
-	padding-left:20px;
+	
 	background-color:rgba(225,202,184,0.6);
 	width:100%;}
 	
@@ -309,7 +313,6 @@ cite{
 	max-height:350px;
 	float:left;
 	margin-bottom:45px;
-	
 }
 
 .duet{
@@ -319,10 +322,8 @@ cite{
 	
 }
 .puzzle{
-	
 	max-height:440px;
-	width:auto;
-	
+	width:auto;	
 }
 .cover{
 	max-height:320px;
@@ -409,16 +410,12 @@ cite{
 audio, canvas, progress, video {
    background-color:#fff498;
    opacity:0.4;
+   width:30px;
 } 
 
 
 /*----------------SEKCJA 5- Galeria------------------*/
-#section5{
-	background:url('../images/lightbg3.jpg');
-    background-size:cover;	
-    background-position:center;
-	background-attachment: fixed;
-	}
+
 #section5 h1{
 	font-family: 'Playfair Display SC', sans-serif;
 	font-size:45px;
@@ -446,7 +443,6 @@ audio, canvas, progress, video {
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
 .view .mask, .view .content {
     width: 380px;
@@ -730,4 +726,10 @@ margin-bottom:15px;
 	height:35px;
 	float:center;
 	margin:5px 5px 10px 5px;
+}
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-right: auto;
+    margin-left: auto;
 }

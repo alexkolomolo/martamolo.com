@@ -252,6 +252,7 @@ cite{
      background-size:100%;
 	background-color:#fff;
 	border-top:2px solid #fff;
+
 }
 #section3 h1{
 	font-family: 'Playfair Display SC', sans-serif;
@@ -270,13 +271,14 @@ cite{
     border-top: 2px solid #930046;	
 }
 #section3 h2{
-	
 	font-family: 'Playfair Display SC', sans-serif;
      background-position: center center;
 	 background-repeat: no-repeat;
 	font-size:35px;
 	color:#000;
 	margin-top:15px;
+	margin-right:15px;
+	margin-left: 15px;
 	
 }
 #section3 h3{
@@ -284,21 +286,21 @@ cite{
 	font-size:20px;
 	line-height:27px;
 	color:fff;
-
-	
+	margin-right: 15px;
+	margin-left: 15px;
 }
 #section3 p{
 	font-family: 'Cormorant', sans-serif;
 	font-size:17px;
 	padding-top:25px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
 
 .td{
 	text-align:right;
-	background-color:#fff;
-	
 	margin-bottom:25px;}
 .justduet{
 	background-color:rgba(225,202,184,0.6);
@@ -310,8 +312,7 @@ cite{
 	width:100%;}
 	
 .kamer{
-	max-height:350px;
-	float:left;
+	max-height:280px;
 	margin-bottom:45px;
 }
 
@@ -324,6 +325,7 @@ cite{
 .puzzle{
 	max-height:440px;
 	width:auto;	
+	float:left;
 }
 .cover{
 	max-height:320px;
@@ -332,7 +334,7 @@ cite{
 	margin-top:20px;
 }
 .talerze{
-	padding-top:25px;
+	padding-top:26px;
 	padding-bottom:10px;
 	max-height:265px;
 	width:auto;
@@ -341,16 +343,19 @@ cite{
 .fb{
 	height:30px;
 	float:right;
-	
+	margin-right:10px;
 }	
 .fb2{
 	float:left;
 	height:30px;
+	margin-left:10px;
+	
 }	
 .home{
 	height:30px;
 	float:left;
 	margin-left:10px;
+
 }		
 	
 	
@@ -434,9 +439,11 @@ audio, canvas, progress, video {
 }
 .view {
     width: 380px;
-    height: 250px;
-    margin: 20px 20px 50px 20px;
-    float: left;
+    height: 245px;
+    margin-left:45px;
+	margin-right:20px;
+	margin-bottom:10px;
+	margin-top:10px;
     border: 10px solid #fff;
     overflow: hidden;
     position: relative;
@@ -446,15 +453,15 @@ audio, canvas, progress, video {
 }
 .view .mask, .view .content {
     width: 380px;
-    height: 250px;
+    height: 245x;
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
 }
 .view img {
     display: block;
-    position: relative
+    position: relative;
+	margin-left:-15px;
 }
 .view h2 {
     text-transform: uppercase;
@@ -476,6 +483,7 @@ audio, canvas, progress, video {
     padding: 10px 20px 20px;
     text-align: center
 }
+
 .view a.info {
     display: inline-block;
     text-decoration: none;
@@ -487,7 +495,8 @@ audio, canvas, progress, video {
     box-shadow: 0 0 1px #000
 }
 .view a.info:hover {
-    box-shadow: 0 0 5px #000
+    box-shadow: 0 0 5px #000;
+
 }
 .view-sixth img { 
 	transition: all 0.4s ease-in-out 0.5s; 
@@ -496,6 +505,7 @@ audio, canvas, progress, video {
 	background-color: rgba(0,0,0,0.2);
 	opacity:0;
 	transition: all 0.3s ease-in 0.4s;
+	margin-left: -20px;
 }
 .view-sixth h2{
 	opacity:0;
@@ -540,6 +550,7 @@ audio, canvas, progress, video {
 .galeria{
 	background-color:rgba(255,255,255,0.2);
 }
+
 
 /*----------------SEKCJA 6- Media------------------*/
 #section6{
@@ -611,7 +622,8 @@ audio, canvas, progress, video {
 }
 #section7 hr{
     float:left;
-    margin-left:20px;
+    margin-left:35px;
+	width:40%;
 }
 #section7 h3{
 
@@ -671,7 +683,7 @@ margin-bottom:15px;
 	color:#fff;	
 }
 #section8 h2{
-	margin-left:55px;
+	margin-left:15px;
 	color:#fff; 
    	font-family:'Cormorant', sans-serif; 
 	font-size:16px;
@@ -679,6 +691,7 @@ margin-bottom:15px;
 	line-height:37px;
 	margin-top:5px;
 	float:left;
+
 }
 #section8 h3 a{
 	text-decoration:none;
@@ -708,6 +721,8 @@ margin-bottom:15px;
 }
 .sections{
 	text-align:center;
+	float:left;
+	margin-left:30px;
 }
 .sections2{
 	float:right;

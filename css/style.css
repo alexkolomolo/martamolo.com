@@ -555,7 +555,7 @@ audio, canvas, progress, video {
 /*----------------SEKCJA 6- Media------------------*/
 #section6{
 	 
-	 background:url('../images/bg3.jpg');
+	 background:url('../images/bg1.jpg');
      background-position: center center;
 	 background-size:cover;
 	 background-attachment: fixed;
@@ -566,18 +566,26 @@ audio, canvas, progress, video {
 	text-align:center;
 	margin-right:25px;
 	color:#000; 
-	background-color:rgba(255,255,255,0.1);
+	background-color:rgba(255,255,255,0.2);
     }
-	
+#section6 h2{
+	font-family: 'Playfair Display SC', sans-serif;
+	text-align:center;
+	color:#000
+	font-size:30px;
+	background-color:rgba(255,255,255,0.6);
+}	
 #section6 a{
 	font-family:'Playfair Display SC', sans-serif;
 	font-size:22px;
 	text-align:center;
 	color:#000; 
+	text-decoration:none;
 	}
 #section6 a:hover{
 	text-decoration:none;
-	font-size:24px;
+	color:#6a0a38;
+	font-size:22px;
 }
 	
 .suma{
@@ -587,15 +595,7 @@ audio, canvas, progress, video {
 #section6 hr{
 	width:30%
 	}
-.clasic{
-	text-align:right;
-	background-color:rgba(255,255,255,0.6);
-}
-.grafikaklasa{
-	margin-top:5px;
-	margin-left:10px;
-	height:100px;	
-}
+
 .fun{
 	float:left;
     text-align:left;
@@ -666,8 +666,16 @@ margin-bottom:15px;
 	height:240px;
     margin-bottom:20px;	
 }
-
-
+#section7 h4{
+	font-family:'Cormorant', sans-serif;
+	font-size:17px;
+	color:#000;
+	text-align:center;
+}
+.ipla{
+	width:50px;
+	
+}
 	
 /*----------------SEKCJA 9- Kontakt------------------*/
 
